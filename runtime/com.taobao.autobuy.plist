@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.taobao.autobuy</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12</string>
+    <string>-m</string>
+    <string>taobao_autobuy</string>
+    <string>run</string>
+    <string>--config</string>
+    <string>/Users/yixiao/Desktop/淘宝自动抢购/config.toml</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/yixiao/Desktop/淘宝自动抢购</string>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/yixiao/Desktop/淘宝自动抢购/runtime/com.taobao.autobuy.stdout.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/yixiao/Desktop/淘宝自动抢购/runtime/com.taobao.autobuy.stderr.log</string>
+</dict>
+</plist>

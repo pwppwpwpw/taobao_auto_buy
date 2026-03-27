@@ -1,0 +1,28 @@
+[run]
+buy_time = "2026-03-26 23:59:59"
+timezone = "Asia/Shanghai"
+stop_refresh_before_seconds = 180
+max_login_retry_times = 180
+login_check_interval = 2
+keep_alive_interval = 60
+max_submit_retry_times = 50
+poll_interval_seconds = 0.05
+
+[browser]
+headless = false
+detach = true
+window_size = "1440,900"
+page_load_timeout = 20
+chrome_binary = ""
+driver_path = ""
+user_data_dir = "./runtime/chrome-profile"
+profile_directory = "Default"
+
+[cart]
+selection_mode = "manual"
+auto_select_on_retry = true
+
+[output]
+log_file = "./runtime/logs/taobao_autobuy.log"
+screenshot_dir = "./runtime/screenshots"
+leave_browser_open = true
